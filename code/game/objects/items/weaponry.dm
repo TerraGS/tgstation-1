@@ -628,6 +628,9 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 		playsound(turf, 'sound/weapons/effects/batreflect2.ogg', 50, TRUE)
 	return 1
 
+/obj/item/melee/baseball_bat/material
+	material_flags = MATERIAL_ADD_PREFIX | MATERIAL_COLOR | MATERIAL_AFFECT_STATISTICS
+
 /obj/item/melee/flyswatter
 	name = "flyswatter"
 	desc = "Useful for killing insects of all sizes."
